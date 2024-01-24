@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>Step 1 : Open url :- https://www.daft.ie/]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2 : Enter city in home page search box.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3 : Click on filters tab.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 4 : Enter keyword in keyword textbox.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Message : buttonText : SHOW 292 RESULTS]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 5 : Click on show button.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 6 : Click on any searched property.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 7 : Verify searched keyword present in property description.]]>
+    </line>
+    <line>
+      <![CDATA[<br>Message : Searched keyword present in property description.]]>
+    </line>
+    <line>
+      <![CDATA[<font color=238E23><strong><i> PASS : searchByKeywordAndVerify</i></strong></font>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-22T17:38:53 IST" name="Default suite" finished-at="2024-01-22T17:39:05 IST" duration-ms="12291">
+    <groups>
+    </groups>
+    <test started-at="2024-01-22T17:38:53 IST" name="Default test" finished-at="2024-01-22T17:39:05 IST" duration-ms="12291">
+      <class name="com.daft.pages.SearchPage">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.daft.pages.SearchPage@9cb8225]" started-at="2024-01-22T17:38:53 IST" name="setUp" finished-at="2024-01-22T17:38:54 IST" duration-ms="1563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.daft.pages.SearchPage.searchByKeywordAndVerify() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchByKeywordAndVerify()[pri:0, instance:com.daft.pages.SearchPage@9cb8225]" started-at="2024-01-22T17:38:54 IST" name="searchByKeywordAndVerify" finished-at="2024-01-22T17:39:05 IST" duration-ms="10407" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Step 1 : Open url :- https://www.daft.ie/]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2 : Enter city in home page search box.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3 : Click on filters tab.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 4 : Enter keyword in keyword textbox.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Message : buttonText : SHOW 292 RESULTS]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 5 : Click on show button.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 6 : Click on any searched property.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 7 : Verify searched keyword present in property description.]]>
+            </line>
+            <line>
+              <![CDATA[<br>Message : Searched keyword present in property description.]]>
+            </line>
+            <line>
+              <![CDATA[<font color=238E23><strong><i> PASS : searchByKeywordAndVerify</i></strong></font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchByKeywordAndVerify -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.daft.pages.SearchPage@9cb8225]" started-at="2024-01-22T17:39:05 IST" name="tearDown" finished-at="2024-01-22T17:39:05 IST" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchByKeywordAndVerify status=SUCCESS method=SearchPage.searchByKeywordAndVerify()[pri:0, instance:com.daft.pages.SearchPage@9cb8225] output=<br>Step 1 : Open url :- https://www.daft.ie/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.daft.pages.SearchPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

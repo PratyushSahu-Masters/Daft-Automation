@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Daft automation suite" verbose="10"
+	parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Verify Search By Keyword Functionality">
+		<classes>
+			<class name="com.daft.pages.SearchPage">
+				<methods>
+					<include name="searchByKeywordAndVerify" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite> 
